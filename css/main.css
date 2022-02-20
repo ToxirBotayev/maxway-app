@@ -1,0 +1,231 @@
+/**************************** FONTS STYLE ****************************/
+@font-face {
+  font-family: "Inter-Black";
+  src: url("../assets/fonts/Inter/Inter-Black.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("../assets/fonts/Inter/Inter-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-ExtraBold";
+  src: url("../assets/fonts/Inter/Inter-ExtraBold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-ExtraLight";
+  src: url("../assets/fonts/Inter/Inter-ExtraLight.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-Light";
+  src: url("../assets/fonts/Inter/Inter-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-Medium";
+  src: url("../assets/fonts/Inter/Inter-Medium.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("../assets/fonts/Inter/Inter-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url("../assets/fonts/Inter/Inter-SemiBold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Inter-Thin";
+  src: url("../assets/fonts/Inter/Inter-Thin.ttf") format("truetype"); }
+.font-inter-black {
+  font-family: "Inter-Black", sans-serif; }
+
+.font-inter-bold {
+  font-family: "Inter-Bold", sans-serif; }
+
+.font-inter-extra-bold {
+  font-family: "Inter-ExtraBold", sans-serif; }
+
+.font-inter-extra-light {
+  font-family: "Inter-ExtraLight", sans-serif; }
+
+.font-inter-light {
+  font-family: "Inter-Light", sans-serif; }
+
+.font-inter-medium {
+  font-family: "Inter-Medium", sans-serif; }
+
+.font-inter-regular {
+  font-family: "Inter-Regular", sans-serif; }
+
+.font-inter-semi-bold {
+  font-family: "Inter-SemiBold", sans-serif; }
+
+.font-inter-thin {
+  font-family: "Inter-Thin", sans-serif; }
+
+/********************************* COLORS STYLE ********************************/
+/******************************* ICONS STYLE **********************************/
+.icon {
+  width: 18px;
+  height: 18px;
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  background-color: #F1B301; }
+  .icon.icon-apple {
+    mask-image: url("../assets/icons/apple.svg");
+    -webkit-mask-image: url("../assets/icons/apple.svg"); }
+  .icon.icon-basket {
+    mask-image: url("../assets/icons/basket.svg");
+    -webkit-mask-image: url("../assets/icons/basket.svg"); }
+  .icon.icon-cheese {
+    mask-image: url("../assets/icons/cheese.svg");
+    -webkit-mask-image: url("../assets/icons/cheese.svg"); }
+  .icon.icon-filter {
+    mask-image: url("../assets/icons/filter.svg");
+    -webkit-mask-image: url("../assets/icons/filter.svg"); }
+  .icon.icon-fire {
+    mask-image: url("../assets/icons/fire.svg");
+    -webkit-mask-image: url("../assets/icons/fire.svg"); }
+  .icon.icon-play {
+    mask-image: url("../assets/icons/google-play.svg");
+    -webkit-mask-image: url("../assets/icons/google-play.svg"); }
+  .icon.icon-leaf {
+    mask-image: url("../assets/icons/leaf.svg");
+    -webkit-mask-image: url("../assets/icons/leaf.svg"); }
+  .icon.icon-pepper {
+    mask-image: url("../assets/icons/pepper.svg");
+    -webkit-mask-image: url("../assets/icons/pepper.svg"); }
+  .icon.icon-phone {
+    mask-image: url("../assets/icons/phone.svg");
+    -webkit-mask-image: url("../assets/icons/phone.svg"); }
+  .icon.icon-plus {
+    mask-image: url("../assets/icons/plus.svg");
+    -webkit-mask-image: url("../assets/icons/plus.svg"); }
+  .icon.icon-rocket {
+    mask-image: url("../assets/icons/rocket.svg");
+    -webkit-mask-image: url("../assets/icons/rocket.svg"); }
+  .icon.icon-instagram {
+    mask-image: url("../assets/icons/instagram.svg");
+    -webkit-mask-image: url("../assets/icons/instagram.svg"); }
+  .icon.icon-facebook {
+    mask-image: url("../assets/icons/facebook.svg");
+    -webkit-mask-image: url("../assets/icons/facebook.svg"); }
+  .icon.icon-telegram {
+    mask-image: url("../assets/icons/telegram.svg");
+    -webkit-mask-image: url("../assets/icons/telegram.svg"); }
+  .icon.icon-tik-tok {
+    mask-image: url("../assets/icons/tik-tok.svg");
+    -webkit-mask-image: url("../assets/icons/tik-tok.svg"); }
+  .icon.icon-youtube {
+    mask-image: url("../assets/icons/youtube.svg");
+    -webkit-mask-image: url("../assets/icons/youtube.svg"); }
+
+/*********************** MAIN STYLES ****************************/
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0; }
+  body .top {
+    width: 100%;
+    background-image: linear-gradient(to right, white 60%, #800A7A 40%);
+    /******************* HEADER STYLE **********************/ }
+    body .top .col-60 {
+      width: 60%; }
+      body .top .col-60 .navbar-nav .nav-item .nav-link {
+        color: #222124; }
+    body .top .col-40 {
+      width: 40%; }
+      body .top .col-40 .line {
+        width: 1px;
+        height: 43px;
+        mix-blend-mode: normal;
+        opacity: 0.4;
+        border: 1px solid #FFFFFF; }
+    body .top .header .col-6 .header-title {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 80px;
+      line-height: 85px;
+      /* or 106% */
+      color: #222124;
+      margin-top: 150px; }
+    body .top .header .col-6 .header-description {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 32px;
+      /* or 178% */
+      color: #222124; }
+    body .top .header .col-6 .row {
+      margin-top: 66px; }
+      body .top .header .col-6 .row .col-6 .card-pitsa {
+        width: 255px;
+        height: 200px;
+        background: linear-gradient(315.49deg, #FFC85C 1.32%, #F1B301 96.68%);
+        border-radius: 12px;
+        position: relative;
+        padding-top: 20px;
+        padding-left: 20px; }
+        body .top .header .col-6 .row .col-6 .card-pitsa button {
+          width: 119px;
+          height: 40px;
+          background: rgba(255, 255, 255, 0.203344);
+          border-radius: 19px; }
+        body .top .header .col-6 .row .col-6 .card-pitsa .card-title {
+          font-style: normal;
+          font-weight: bold;
+          font-size: 34px;
+          line-height: 32px;
+          color: #E76A06; }
+        body .top .header .col-6 .row .col-6 .card-pitsa .pizza-half {
+          position: absolute;
+          bottom: 0;
+          right: 0; }
+      body .top .header .col-6 .row .col-6 .card-kombo {
+        width: 255px;
+        height: 200px;
+        background: #800A7A;
+        border-radius: 12px;
+        position: relative;
+        padding-top: 20px;
+        padding-left: 20px; }
+        body .top .header .col-6 .row .col-6 .card-kombo button {
+          width: 174px;
+          height: 40px;
+          background: rgba(255, 255, 255, 0.203344);
+          border-radius: 19px;
+          border: 0; }
+        body .top .header .col-6 .row .col-6 .card-kombo .card-title {
+          font-style: normal;
+          font-weight: bold;
+          font-size: 34px;
+          line-height: 32px;
+          color: #FC96F7; }
+        body .top .header .col-6 .row .col-6 .card-kombo .kombo-half {
+          position: absolute;
+          bottom: 0;
+          right: 0; }
+    body .top .header .col-6 .big-burger {
+      margin-top: 60px;
+      width: 798px;
+      margin-left: -110px;
+      margin-bottom: 0; }
+  body .main .row .col-12 .line {
+    width: 100%;
+    height: 1px;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    border: 1px solid #979797;
+    margin-top: 79px;
+    margin-bottom: 39px; }
+  body .main .row .col-12 .nav .nav-item .nav-link {
+    font-size: 20px;
+    line-height: 24px;
+    color: #222124; }
+  body .main .row .col-12 .nav .nav-item .active {
+    width: 134px;
+    height: 50px;
+    padding: 10px 0;
+    background: #F1B301;
+    border-radius: 27px;
+    color: #fff; }
+  body .main .row .col-12 .nav .nav-item .filter {
+    width: 160px;
+    height: 50px;
+    background: #F5F5F5;
+    border-radius: 27px;
+    color: #222124; }
+
+/*# sourceMappingURL=main.css.map */
